@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.njkol.search&apos; to &apos;com.njkol.sort&apos;&#x0D;&#x0A;- Original project: &apos;java-sort-algorithms&apos;&#x0D;&#x0A;- Original element: &apos;java-sort-algorithms/src/main/java/com.njkol.search&apos;&#x0D;&#x0A;- Renamed element: &apos;java-sort-algorithms/src/main/java/com.njkol.sort&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.njkol.search&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.njkol.search" name="com.njkol.sort" qualified="false" references="true" stamp="1638458256395" textual="false" version="1.0"/>
+</session>

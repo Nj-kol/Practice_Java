@@ -1,0 +1,5 @@
+package com.njkol.search.algos;
+
+public class LinearSearch {
+
+}

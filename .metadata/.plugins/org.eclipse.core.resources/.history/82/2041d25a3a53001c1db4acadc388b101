@@ -1,0 +1,6 @@
+package com.njkol.search.algos;
+
+public class BinarySearch implements SearchAlgorithm {
+
+	
+}

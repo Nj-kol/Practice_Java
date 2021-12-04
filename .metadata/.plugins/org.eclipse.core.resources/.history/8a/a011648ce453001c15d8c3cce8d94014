@@ -1,0 +1,10 @@
+package com.njkol.hashtable;
+
+public class HashTableClient {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.njkol.search.algos;
+
+public class BinarySearch implements SearchAlgorithm {
+
+	@Override
+	public int doIntegerSearch(int[] input, int value) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+}
