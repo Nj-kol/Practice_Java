@@ -14,5 +14,7 @@ metastore_db
 .classpath
 .project
 .settings
+.recommenders/caches
+.metadata
 
 **/.DS_Store
