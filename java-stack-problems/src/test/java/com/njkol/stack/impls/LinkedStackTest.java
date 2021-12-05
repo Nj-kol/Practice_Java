@@ -7,19 +7,13 @@ import org.junit.jupiter.api.Test;
 
 import com.njkol.stack.Employee;
 
-/**
- * Test case for a Stack backed by an Array
- * 
- * @author Nilanjan Sarkar
- *
- */
-class EmployeeStackTest {
+class LinkedStackTest {
 
-	private Stack<Employee> stack;
-
+	private LinkedStack<Employee> stack;
+	
 	@BeforeEach
 	void setUp() throws Exception {
-		stack = new EmployeeStack(5);
+		stack = new LinkedStack<Employee>();
 		stack.push(new Employee("Jane", "Jones", 123));
 		stack.push(new Employee("John", "Doe", 4567));
 		stack.push(new Employee("Mary", "Smith", 22));
