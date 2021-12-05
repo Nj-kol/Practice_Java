@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;java-bitwise-manipulation&apos; to &apos;java-bitwise-manipulation-problems&apos;" description="Rename resource &apos;java-bitwise-manipulation&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/java-bitwise-manipulation" name="java-bitwise-manipulation-problems" stamp="1637507123119" updateReferences="true"/>
-</session>

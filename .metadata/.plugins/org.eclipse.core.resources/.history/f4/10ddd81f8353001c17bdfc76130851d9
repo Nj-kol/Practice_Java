@@ -1,5 +1,0 @@
-package com.njkol.sort.algos;
-
-public class MertSort extends SortAlgorithm {
-
-}
