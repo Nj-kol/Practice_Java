@@ -35,5 +35,6 @@
   
 # Notes
 
+* In most Practical cases, a Linked List is the better backing structure for a Stack
 * If we know the size of the array up front and the memory is tight, a Stack backed by an Array may be a better choice
 * Top always points to the next available position on the stack. The top item is actual located at *(top - 1)*
