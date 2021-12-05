@@ -18,3 +18,4 @@ metastore_db
 .metadata
 
 **/.DS_Store
+/.recommenders/
