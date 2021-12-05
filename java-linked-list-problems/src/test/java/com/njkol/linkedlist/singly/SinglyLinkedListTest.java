@@ -30,6 +30,8 @@ class SinglyLinkedListTest {
 		list.addToFront(mikeWilson);
 		
 		assertEquals(4,list.getSize());
+		
+		list.printList();
 	}
 
 }

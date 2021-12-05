@@ -25,12 +25,11 @@ public class LinkedListClient {
 
 		System.out.println("Current size of the linked list : "+list.getSize());
 
-		list.printLinkedList();
+		list.printList();
 
 		// list.removeFromFront();
 		// System.out.println(list.getSize());
 		// list.printList();
 
 	}
-
 }

@@ -45,23 +45,22 @@ public class SinglyLinkedList<T> {
 		Node<T> current = head;
 		while (current.getNext() != null) {
 			// we'll loop until current.next is null
-			current = current.getNext(); 
+			current = current.getNext();
 		}
 		Node<T> newNode = new Node<T>(data);
 		newNode.data = data;
 		current.setNext(newNode);
 	}
 
-	// For printing Linked List
-	public void printLinkedList() {
-		System.out.println("Printing LinkedList (head --> last) ");
-		System.out.println("====================================");
+	public void printList() {
 		Node<T> current = head;
+		System.out.print("HEAD -> ");
 		while (current != null) {
+			System.out.print(current);
+			System.out.print(" -> ");
 			current = current.getNext();
-			System.out.println(current);
 		}
-		System.out.println("====================================");
+		System.out.println("null");
 	}
 
 	public int getSize() {
