@@ -25,7 +25,7 @@
 * Donald Shell published the first version of this sort in 1959. Hence the name.
 * The algorithm does some preliminary work (Using gap values greater than 1),and then becomes Insertion sort
 * It is an *in-place* algorithm
-* Worst-case performance- O(N^2).The running time of Shellsort is heavily dependent on the gap sequence it uses. For many practical variants, determining their time complexity remains an open problem.
+* Worst-case performance- O(N^2).The running time of Shellsort is heavily dependent on the gap sequence it uses. For many practical variants, determining their time complexity remains an open problem
 * It is an unstable algorithm
 
 # Notes
