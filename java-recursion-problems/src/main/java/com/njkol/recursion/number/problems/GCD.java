@@ -1,4 +1,4 @@
-package com.njkol.recursion.problems;
+package com.njkol.recursion.number.problems;
 /**
  * What is GCD?
  * 
