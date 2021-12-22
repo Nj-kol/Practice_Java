@@ -28,4 +28,14 @@
 * Worst-case performance- O(N^2).The running time of Shellsort is heavily dependent on the gap sequence it uses. For many practical variants, determining their time complexity remains an open problem
 * It is an unstable algorithm
 
+## Merge Sort
+
+* It is NOT an *in-place* algorithm
+* It is a divide and conquer Algorithm
+* It has two phases:
+  - Splitting
+  - Merging
+* O(n log n) time complexity 
+* Stable sort algorithm
+
 # Notes
