@@ -1,9 +1,11 @@
-package com.njkol.arrays;
+package com.njkol.arrays.basic;
 
 import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * https://leetcode.com/problems/two-sum/
+ * 
  * https://www.youtube.com/watch?v=BoHO04xVeU0
  * https://www.youtube.com/watch?v=TcsYEnMrnFo
  * 
@@ -33,17 +35,17 @@ class TwoSum {
 
 	public int[] twoSumOptimal(int[] nums, int target) {
 
-		Map<Integer, Integer> delta = new HashMap<>();
+		Map<Integer, Integer> complementMap = new HashMap<>();
 
 		for (int i = 0; i <= nums.length; i++) {
           
 			int complement = target - nums[i];
 			
-			if(delta.containsKey(complement)) {
-				return new int[] { delta.get(complement), i };
+			if(complementMap.containsKey(complement)) {
+				return new int[] { complementMap.get(complement), i };
 			}
 	
-			delta.put(nums[i], i);
+			complementMap.put(nums[i], i);
 		}
 		
 		throw new IllegalArgumentException("No match found");
