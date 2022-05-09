@@ -5,39 +5,20 @@ public class ArraysDemo {
 	public static void main(String[] args) {
 
 		// int arr[] = { 3, 4 };
-		int arr[] = { 1, 2, 3 };
+		int arr[] = { 3, 1, 5, 4, 2, 8 };
 
-		System.out.println(peakElement(arr,arr.length));
+		scratchMethod(arr);
 	}
 
-	// Function to find the peak element
-	// arr[]: input array
-	// n: size of array a[]
-	static public int peakElement(int[] arr, int n) {
+	static public void scratchMethod(int[] arr) {
 
-		int x = 0;
-		boolean isLeftSmaller = false;
-		boolean isRightSmaller = false;
+		System.out.println("Length of array : " + arr.length);
 
-		for (int i = 0; i < n; i++) {
-
-			int b = arr[i];
-		
-			if (i != 0 ) {
-				int a = arr[i - 1];
-				if(b > a)
-				isLeftSmaller = true;
-			}
-			if (i + 1 < n) {
-				int c = arr[i + 1];
-				if(b > c)
-				isRightSmaller = true;
-			}
-			if (isLeftSmaller && isRightSmaller) {
-				x = i;
-			}
-		}
-
-		return x;
+		int start = 0;
+		int end = arr.length;
+		int midpoint = start + (end - start) / 2;
+		// int midpoint = (start + end) / 2;
+		System.out.println("Midpoint of array : " + midpoint);
+		System.out.println("Element at Midpoint of array : " + arr[midpoint]);
 	}
 }

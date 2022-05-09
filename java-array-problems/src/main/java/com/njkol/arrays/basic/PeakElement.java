@@ -40,4 +40,8 @@ public class PeakElement {
       return -1;
     }
  
+	public void sample () {
+		
+		
+	}
 }
