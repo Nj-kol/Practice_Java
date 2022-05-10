@@ -1,5 +1,13 @@
 package com.njkol.arrays;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
 public class ArraysDemo {
 
 	public static void main(String[] args) {
@@ -12,13 +20,12 @@ public class ArraysDemo {
 
 	static public void scratchMethod(int[] arr) {
 
-		System.out.println("Length of array : " + arr.length);
+		List<String> list1 = new ArrayList<String>();
+		Collections.addAll(list1, "one", "two", "three", "four","five");
 
-		int start = 0;
-		int end = arr.length;
-		int midpoint = start + (end - start) / 2;
-		// int midpoint = (start + end) / 2;
-		System.out.println("Midpoint of array : " + midpoint);
-		System.out.println("Element at Midpoint of array : " + arr[midpoint]);
+		System.out.println(System.identityHashCode("one"));
+		System.nanoTime();
+		System.currentTimeMillis();
+		
 	}
 }

@@ -41,4 +41,18 @@ class MaxSumSubArrayOfSizeKTest {
 		System.out.println("executionTime for optimized solution :" + executionTime + " ns \n");
 		assertEquals(13,res);
 	}
+	
+	@Test
+	void testSlidingWindowAlter() {
+		int[] A = { 1, 9, -1, -2, 7, 3, -1, 2 };
+		int k = 4;
+		long startTime = 0, endTime = 0, executionTime = 0;
+		startTime = System.nanoTime();
+		int res=  algo.findMaxSumSubArray(k, A);
+		System.out.println("sliding window technique O(n) result=" + res);
+		endTime = System.nanoTime();
+		executionTime = endTime - startTime;
+		System.out.println("executionTime for optimized solution :" + executionTime + " ns \n");
+		assertEquals(13,res);
+	}
 }
