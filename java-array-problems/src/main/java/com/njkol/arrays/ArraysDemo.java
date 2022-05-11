@@ -3,6 +3,7 @@ package com.njkol.arrays;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
@@ -20,12 +21,9 @@ public class ArraysDemo {
 
 	static public void scratchMethod(int[] arr) {
 
-		List<String> list1 = new ArrayList<String>();
-		Collections.addAll(list1, "one", "two", "three", "four","five");
-
-		System.out.println(System.identityHashCode("one"));
-		System.nanoTime();
-		System.currentTimeMillis();
-		
+		String s1="Sachin ";  
+		String s2="Tendulkar";  
+		String s3=s1.concat(s2);  
+		System.out.println(s3);//Sachin Tendulkar  
 	}
 }
