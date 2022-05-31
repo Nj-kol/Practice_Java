@@ -1,4 +1,4 @@
-package com.njkol.bitwise.xor;
+package com.njkol.bitwise.misc;
 
 /**
  * https://www.youtube.com/watch?v=qq64FrA2UXQ

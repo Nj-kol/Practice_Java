@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.njkol.bitwise.xor;
+package com.njkol.bitwise.misc;
 
 import static org.junit.jupiter.api.Assertions.*;
 
