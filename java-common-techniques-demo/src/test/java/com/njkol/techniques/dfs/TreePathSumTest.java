@@ -15,7 +15,7 @@ class TreePathSumTest {
 	void setUp() throws Exception {
 	}
 
-	//@Test
+    @Test
 	void testHasPath() {
 		TreeNode root = new TreeNode(12);
 		root.left = new TreeNode(7);
@@ -27,31 +27,4 @@ class TreePathSumTest {
 		System.out.println("Tree has path: " + TreePathSum.hasPath(root, 16));
 	}
 	
-	@Test
-	void testStack() {
-		
-		Stack<Integer> stack = new Stack<>();
-		
-		stack.push(3);
-		stack.push(2);
-		stack.push(1);
-		
-		while(!stack.isEmpty()) {
-			System.out.println(stack.pop());
-		}
-	}
-	
-	//@Test
-	void testStackWithDeque() {
-		
-		Deque<Integer> stack = new LinkedList<>();
-		
-		stack.push(3);
-		stack.push(2);
-		stack.push(1);
-		
-		while(!stack.isEmpty()) {
-			System.out.println(stack.pop());
-		}
-	}
 }

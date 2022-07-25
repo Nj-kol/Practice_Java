@@ -3,7 +3,6 @@ package com.njkol.techniques.cyclicsort;
 public class CyclicSort {
 
 	public static void sort(int[] nums) {
-
 		int i = 0;
 		while (i < nums.length) {
 			// Value at a particular position in the array = index + 1
@@ -22,20 +21,4 @@ public class CyclicSort {
 		arr[i] = arr[j];
 		arr[j] = temp;
 	}
-
-
-	public static void main(String[] args) {
-
-		int[] arr = new int[] { 3, 1, 5, 4, 2 };
-
-		CyclicSort.sort(arr);
-
-		for (int num : arr)
-			System.out.print(num + " ");
-		System.out.println();
-	
-	}
-
-
-
 }

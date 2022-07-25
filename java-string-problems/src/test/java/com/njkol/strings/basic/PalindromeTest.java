@@ -8,17 +8,24 @@ import org.junit.jupiter.api.Test;
 class PalindromeTest {
 
 	Palindrome prob;
-	
+
 	@BeforeEach
 	void setUp() throws Exception {
 		prob = new Palindrome();
 	}
 
 	@Test
-	void test() {
+	void testIterative() {
 		// String input = "test";
-		 String input = "malayalam";
-		System.out.println(	prob.isPalindrome(input));
+		String input = "malayalam";
+		System.out.println(prob.isPalindrome(input));
+	}
+
+	@Test
+	void testRecurive() {
+		// String input = "test";
+		String input = "malayalam";
+		System.out.println(prob.isPalindromeRecursive(input, 0, input.length() - 1));
 	}
 
 }

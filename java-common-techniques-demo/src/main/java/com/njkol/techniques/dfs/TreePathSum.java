@@ -3,6 +3,7 @@ package com.njkol.techniques.dfs;
 public class TreePathSum {
 
 	public static boolean hasPath(TreeNode root, int sum) {
+		System.out.println(sum);
 	    if (root == null)
 	        return false;
 
